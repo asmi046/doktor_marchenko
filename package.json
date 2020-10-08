@@ -1,0 +1,50 @@
+{
+  "name": "Marchenko",
+  "version": "1.0.1",
+  "description": "Marchenko",
+  "main": "index.php",
+  "scripts": {
+    "test": "editorconfig-checker",
+    "clear_r": "ssh nina-marhenko_wp1@pw72n.spectrum.myjino.ru \"rm  site/wp-content/themes/monte/*.*\"",
+    "send_r": "scp -C *.php *.png *.css nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "send_ms": "scp -C *.css nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "send_head": "scp -C header.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "send_one": "scp -C tovar-elem.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "send_cat": "scp -C category.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "send_singl": "scp -C single.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "send_index": "scp -C index.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "send_func": "scp -C functions.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "mk_part_carbon": "ssh nina-marhenko_wp1@pw72n.spectrum.myjino.ru \"mkdir -p site/wp-content/themes/monte/inc\"",
+    "send_carbon": "scp -C -r inc nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "send_carbon_fild": "scp -C -r inc/custom-fields-options nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/inc/",
+    "mk_part_dir": "ssh nina-marhenko_wp1@pw72n.spectrum.myjino.ru \"mkdir -p site/wp-content/themes/monte/template-parts\"",
+    "send_part": "scp -C -r template-parts nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "mk_part_img": "ssh nina-marhenko_wp1@pw72n.spectrum.myjino.ru \"mkdir -p site/wp-content/themes/monte/img\"",
+    "send_img": "scp -r img nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "mk_part_js": "ssh nina-marhenko_wp1@pw72n.spectrum.myjino.ru \"mkdir -p site/wp-content/themes/monte/js\"",
+    "send_js": "scp -r js nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "mk_part_css": "ssh nina-marhenko_wp1@pw72n.spectrum.myjino.ru \"mkdir -p site/wp-content/themes/monte/css\"",
+    "send_css": "scp -C -r css nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "mk_part_fonts": "ssh nina-marhenko_wp1@pw72n.spectrum.myjino.ru \"mkdir -p site/wp-content/themes/monte/fonts\"",
+    "send_fonts": "scp -C -r fonts nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "send_all": "npm run send_r & npm run send_css & npm run send_part & npm run send_img & npm run send_image & npm run send_js & npm run send_fonts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmi046/doktor_marchenko.git"
+  },
+  "keywords": [
+    "wp",
+    "WordPress"
+  ],
+  "author": "Asmi-Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmi046/doktor_marchenko/issues"
+  },
+  "homepage": "https://github.com/asmi046/doktor_marchenko#readme",
+  "dependencies": {
+    "editorconfig-checker": "^3.1.0",
+    "group-css-media-queries": "^1.4.1"
+  }
+}
