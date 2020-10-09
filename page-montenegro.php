@@ -15,7 +15,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-		  <section class="way">
+		  <!-- <section class="way">
 		    <div class="container">
 		      <h2 class="section-title">Нам с вами по пути, если</h2>
 		      <div class="way-wrapper">
@@ -151,93 +151,93 @@ get_header();
 		        </div>
 		      </div>
 		    </div>
-		  </section>
-		  <section class="callback">
+		  </section> -->
+		  <!-- <section class="callback">
 		    <div class="container">
 		      <h2 class="callback-title">Если вы поставили больше 5 галочек, <br> то наш пситур станет лучшим событием в вашей жизни!!!</h2>
 		      <div class="btn-wrap">
 		        <a href="#" class="button popup-modal" data-formid="Форма из блока Если вы поставили больше 5 галочек" data-mailmsg="Форма из блока Если вы поставили больше 5 галочек">Присоединяйтесь!</a>
 		      </div>
 		    </div>
-		  </section>
+		  </section> -->
 		  <section class="declaration">
 		    <div class="container">
 		      <h2 class="section-title">
-		        <span>Декларация курса Апгрейд</span>
-		        Или что делать, чтобы точно получилось
+		        <span><!-- "ПЕРЕПРОШИВКА" --></span>
+		        Что ты получишь?
 		      </h2>
 		      <div class="declaration-wrapper">
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-pink">01</span>
-		          <h3 class="declaration-item__title row-1"><span>Знать, что ты можешь все изменить</span></h3>
+		          <h3 class="declaration-item__title row-1"><span>Начнешь выстраивать отношения</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-pink"></div>
-		            Приехав на этот курс, ты явно уже готов(а) к переменам, ты соглашаешься с тем, что качество твоей жизни тесно и неразрывно связано с привычками.
+		            Начнешь выстраивать отношения с самим собой и со своими близкими на совершенно новом уровне. Научишься слышать и договариваться.
 		          </div>
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-pink">02</span>
-		          <h3 class="declaration-item__title row-1"><span>Взять ответственность на себя</span></h3>
+		          <h3 class="declaration-item__title row-1"><span>Станешь главным «гуру»</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-pink"></div>
-		            Мы предполагаем, ты приняла самостоятельное решение - участвовать в психотерапевтическом курсе "Апгрэйд" и серьезно работать над качеством своей жизни.
-		          </div>
+								Станешь главным «гуру» для самого себя, способным разобраться с любым вопросом.		          
+							</div>
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-pink">03</span>
-		          <h3 class="declaration-item__title row-1"><span>Действовать</span></h3>
+		          <h3 class="declaration-item__title row-1"><span>Чувствовать себя</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-pink"></div>
-		            Если ты перестаёшь делать задания, ленишься, ищешь оправдания своему бездействию или споришь - ты не получишь результат. Пропала мотивация? Посмотри на результаты других и вдохновись заново.
+								Ты сможешь чувствовать себя в любой ситуации расслабленно и комфортно.
 		          </div>
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-green">04</span>
-		          <h3 class="declaration-item__title row-2"><span>Бери от курса максимум</span></h3>
+		          <h3 class="declaration-item__title row-2"><span>Получишь практический инструмент</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-green"></div>
-		            Используй все возможности, которые дает тебе "Апгрэйд", чтобы получить от него максимум! Переспрашивай. Задавай вопросы, выполняй задания.
-		          </div>
+								Получишь практический инструмент, как вернуть себя в состояние спокойствия и счастья перед важным и пугающим тебя событием.
+		         	 	</div>
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-green">05</span>
-		          <h3 class="declaration-item__title row-2"><span>100% твоей отдачи</span></h3>
+		          <h3 class="declaration-item__title row-2"><span>Получишь основы древнейших знаний</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-green"></div>
-		            От тебя требуется 100% отдача! Важно не просто делать все задания, выполнять их на автопилоте - бесполезная трата времени. Необходимо проживать все, что ты делаешь изнутри, на глубинном уровне.
-		          </div>
+								Получишь основы древнейших знаний, подтвержденных последними разработками ученых.
+		            </div>
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-green">06</span>
-		          <h3 class="declaration-item__title row-2"><span>Не оценивать</span></h3>
+		          <h3 class="declaration-item__title row-2"><span>Сможешь усилить поддержку</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-green"></div>
-		            Эта программа не про логику. Многие практики, задания и выводы будут откровением для тебя. Будь готов(а) вкладывать свои эмоции, учиться чувствовать и доверять себе.
-		          </div>
+								Сможешь усилить и направить поддержку и энергию своего рода.
+			          </div>
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-pink">07</span>
-		          <h3 class="declaration-item__title row-3"><span>Личное присутствие</span></h3>
+		          <h3 class="declaration-item__title row-3"><span>Справляться с любой негативной эмоцией</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-pink"></div>
-		            Если ты хочешь самых глубинных и серьезных изменений в своей жизни, будь на всех занятиях. Тогда динамика твоих изменений будет постоянно расти. На время обучения я всегда рядом.
+		            Научишься справляться с любой негативной эмоцией за 8 секунд и получишь набор экспресс-практик, которые за 10-15 минут выводят из состояния депрессии или апатии.
 		          </div>
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-pink">08</span>
-		          <h3 class="declaration-item__title row-3 tt-n"><span>Верить!</span></h3>
+		          <h3 class="declaration-item__title row-3 tt-n"><span>Превращать боль в энергию</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-pink"></div>
-		            Здесь собрано лучшее - в программу "Апргэйд" вошли мои самые сильные тренинги и практики за все время. Здесь нет просто "красивой" теории или упражнений, не проверенных личной практикой и личным опытом.
-		          </div>
+								Научишься превращать боль и дискомфорт в энергию для достижения своих целей.
+			          </div>
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-pink">09</span>
-		          <h3 class="declaration-item__title row-3 tt-n"><span>Безопасность</span></h3>
+		          <h3 class="declaration-item__title row-3 tt-n"><span>Станешь создателем своей жизни</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-pink"></div>
-		            Все, что происходит на курсе, остается на курсе, никакая информация, которую ты откроешь в ходе курса, никому не передается и не используется в коммерческих или личных целях
-		          </div>
+								Станешь создателем своей жизни, перестанешь вообще хоть в чем-то ссылаться на обстоятельства.
+			          </div>
 		        </div>
 		      </div>
 		      <div class="btn-wrap">
@@ -261,7 +261,7 @@ get_header();
 		  </section>
 		  <section class="advantages">
 		    <div class="container">
-		      <h2 class="section-title">Преимущества мастер-класса «ПерепроШивка»</h2>
+		      <h2 class="section-title">Что такое «ПЕРЕПРОШИВКА»?</h2>
 		      <div class="advantages-wrapper">
 		        <div class="advantages-item" style="background-image: url(<?php echo get_template_directory_uri()?>/img/psih_tyr_fot_2.jpg)">
 		          <span class="advantages-item__number">01</span>
@@ -295,7 +295,7 @@ get_header();
 		  </section>
 		  <section class="programm" style="background-image: url(<?php echo get_template_directory_uri()?>/img/psih_tyr_fot_3.jpg)">
 		    <div class="container">
-		      <h2 class="section-title">Программа тура</h2>
+		      <h2 class="section-title">Программа Мастер-класса</h2>
 		      <div class="programm-slider">
 		        <div class="programm-item">
 		          <div class="programm-item__date"><?php echo carbon_get_the_post_meta("tp1_data");?></div>
@@ -336,7 +336,7 @@ get_header();
 		  </section>
 		  <section class="accommodation">
 		    <div class="container">
-		      <h2 class="section-title">Проживание</h2>
+		      <h2 class="section-title">Ждем тебя</h2>
 		      <div class="accommodaion-wrapper">
 		        <div class="accommodation-item">
 		          <h4 class="accommodation-item__title tt-u"><?php echo carbon_get_the_post_meta("hotel_name");?></h4>
@@ -357,7 +357,7 @@ get_header();
 		        </div> -->
 		      </div>
 		      <div class="btn-wrap">
-		        <a href="#" class="button popup-modal" data-formid="Форма из блока Проживание" data-mailmsg="Форма из блока Проживание">Заказать участие в мастер классе и отдых в Черногории</a>
+		        <a href="#" class="button popup-modal" data-formid="Форма из блока Проживание" data-mailmsg="Форма из блока Проживание">Заказать участие в мастер классе</a>
 		      </div>
 		    </div>
 		  </section>
@@ -365,7 +365,7 @@ get_header();
 		    <div class="container">
 		      <h2 class="booking-title">Осталось <br><span class="color-orange"><?php echo carbon_get_the_post_meta("tur_countm_mest");?></span> <?php echo carbon_get_the_post_meta("tur_countm_mest_iz");?></h2>
 		      <div class="booking-descr">
-		        Бронь закрепляется за Вами после предоплаты в 30% от стоимости пакета и необходима для бронирования отеля. Предоплата не подлежит возврату.
+		        Бронирование участия – предоплата 10000 рублей. В случае отказа от участия - предоплата не возвращается, но вы можете использовать ее в других мероприятиях Дмитрия Хара или передать свою предоплату другому человеку, который ещё не является участником тренинга.
 		      </div>
 		    </div>
 		  </section>
@@ -374,7 +374,8 @@ get_header();
 		  		<h2 class="section-title">Пакеты участия</h2>
 		  		<!--<h3 style = "text-align:center;">В настоящий момент программа курса разрабатывается.</h3>-->
 				
-				<div class="packages-descr">Выберите подходящий именно Вам</div>
+				<div class="packages-descr">В стоимость входит проживание и питание на базе отдыха</div>
+				<div class="packages-descr">Для семейных пар – специальные условия</div>
 		  		<div class="packages-wrapper">
 		  			<div class="packages-item">
 		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac1_data");?></h4>
@@ -403,7 +404,7 @@ get_header();
 		  </section>
 		  <section class="reviews">
 		    <div class="container">
-		      <h2 class="section-title">Отзывы учеников программ Нины Марченко</h2>
+		      <h2 class="section-title">Отзывы участников трансформационного тренинга «ПерепроШивка»</h2>
 		      <div class="reviews-wrapper">
 		        <div class="reviews-item">
 		          <div class="reviews-item__name"><?php echo carbon_get_the_post_meta("otz1_name");?></div>
@@ -411,7 +412,7 @@ get_header();
 		             <?php echo carbon_get_the_post_meta("otz1_text");?>
 		          </div>
 		          <a href="https://prodoctorov.ru/kursk/vrach/303120-marchenko/#otzivi" class="reviews-item__link">Еще отзывы</a>
-		          <img src="<?php echo get_template_directory_uri();?>/img/otz-2-1.jpg" class="reviews-item__photo" alt="">
+		          <img src="<?php echo get_template_directory_uri();?>/img/c1.jpg" class="reviews-item__photo" alt="">
 		        </div>
 		        <div class="reviews-item">
 		          <div class="reviews-item__name"><?php echo carbon_get_the_post_meta("otz2_name");?></div>
@@ -419,7 +420,7 @@ get_header();
 		             <?php echo carbon_get_the_post_meta("otz2_text");?>
 		          </div>
 		          <a href="https://prodoctorov.ru/kursk/vrach/303120-marchenko/#otzivi" class="reviews-item__link">Еще отзывы</a>
-		          <img src="<?php echo get_template_directory_uri();?>/img/otz-2-2.jpg" class="reviews-item__photo" alt="">
+		          <img src="<?php echo get_template_directory_uri();?>/img/c2.jpg" class="reviews-item__photo" alt="">
 		        </div>
 		        <div class="reviews-item">
 		          <div class="reviews-item__name"><?php echo carbon_get_the_post_meta("otz3_name");?></div>
@@ -427,7 +428,7 @@ get_header();
 		             <?php echo carbon_get_the_post_meta("otz3_text");?>
 		          </div>
 		          <a href="https://prodoctorov.ru/kursk/vrach/303120-marchenko/#otzivi" class="reviews-item__link">Еще отзывы</a>
-		          <img src="<?php echo get_template_directory_uri();?>/img/otz-2-3.jpg" class="reviews-item__photo" alt="">
+		          <img src="<?php echo get_template_directory_uri();?>/img/c3.jpg" class="reviews-item__photo" alt="">
 		        </div>
 		      </div>
 		      <div class="btn-wrap">

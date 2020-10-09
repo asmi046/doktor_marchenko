@@ -78,12 +78,12 @@
 	        	<?php echo carbon_get_the_post_meta('live_tur');?>
 	        </div>
 	        <div class="header-content__update">
-	          Психологический тур
-	          <span># Апгрейд</span>
-	          Мечтай! Действуй! <br> Достигай!
+	          Живой мастер-класс
+	          <span># ПерепроШивка</span>
+	          Твоя Жизнь <br> уже никогда не будет прежней…
 	        </div>
 	        <div class="header-content__live">
-	          или что сделать, чтобы точно получилось
+	          
 	        </div>
 	      </div>
 	    </div>
