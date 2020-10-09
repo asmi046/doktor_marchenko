@@ -163,8 +163,8 @@ get_header();
 		  <section class="declaration">
 		    <div class="container">
 		      <h2 class="section-title">
-		        <span><!-- "ПЕРЕПРОШИВКА" --></span>
 		        Что ты получишь?
+		         <span>ПО РЕЗУЛЬТАТАМ ТРЕНИНГА:</span>
 		      </h2>
 		      <div class="declaration-wrapper">
 		        <div class="declaration-item">
@@ -185,7 +185,7 @@ get_header();
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-pink">03</span>
-		          <h3 class="declaration-item__title row-1"><span>Чувствовать себя</span></h3>
+		          <h3 class="declaration-item__title row-1"><span>Чувство уверенности</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-pink"></div>
 								Ты сможешь чувствовать себя в любой ситуации расслабленно и комфортно.
@@ -225,7 +225,7 @@ get_header();
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-pink">08</span>
-		          <h3 class="declaration-item__title row-3 tt-n"><span>Превращать боль в энергию</span></h3>
+		          <h3 class="declaration-item__title row-3"><span>Превращать боль в энергию</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-pink"></div>
 								Научишься превращать боль и дискомфорт в энергию для достижения своих целей.
@@ -233,7 +233,7 @@ get_header();
 		        </div>
 		        <div class="declaration-item">
 		          <span class="declaration-item__number color-pink">09</span>
-		          <h3 class="declaration-item__title row-3 tt-n"><span>Станешь создателем своей жизни</span></h3>
+		          <h3 class="declaration-item__title row-3"><span>Станешь создателем своей жизни</span></h3>
 		          <div class="declaration-item__text">
 		            <div class="declaration-item__text-before bg-pink"></div>
 								Станешь создателем своей жизни, перестанешь вообще хоть в чем-то ссылаться на обстоятельства.
@@ -295,7 +295,7 @@ get_header();
 		  </section>
 		  <section class="programm" style="background-image: url(<?php echo get_template_directory_uri()?>/img/psih_tyr_fot_3.jpg)">
 		    <div class="container">
-		      <h2 class="section-title">Программа Мастер-класса</h2>
+		      <h2 class="section-title">Программа тренинга</h2>
 		      <div class="programm-slider">
 		        <div class="programm-item">
 		          <div class="programm-item__date"><?php echo carbon_get_the_post_meta("tp1_data");?></div>
@@ -345,6 +345,13 @@ get_header();
 		            <img class="accommodation-item__photo-big" src="<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('hotel_img_1'), 'full')[0];?>" alt="">
 		            <img class="accommodation-item__photo-big" src="<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('hotel_img_2'), 'full')[0];?>" alt="">
 		            <img class="accommodation-item__photo-big" src="<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('hotel_img_3'), 'full')[0];?>" alt="">
+		          	<img class="accommodation-item__photo-big" src="<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('hotel_img_4'), 'full')[0];?>" alt="">
+		          	<img class="accommodation-item__photo-big" src="<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('hotel_img_5'), 'full')[0];?>" alt="">
+		          	<img class="accommodation-item__photo-big" src="<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('hotel_img_6'), 'full')[0];?>" alt="">
+		            <img class="accommodation-item__photo-big" src="<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('hotel_img_7'), 'full')[0];?>" alt="">
+		            <img class="accommodation-item__photo-big" src="<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('hotel_img_8'), 'full')[0];?>" alt="">
+		          	<img class="accommodation-item__photo-big" src="<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('hotel_img_9'), 'full')[0];?>" alt="">
+		          	<img class="accommodation-item__photo-big" src="<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('hotel_img_10'), 'full')[0];?>" alt="">
 		          </div>
 		        </div>
 		        <!-- <div class="accommodation-item">
@@ -363,15 +370,15 @@ get_header();
 		  </section>
 		  <section class="booking" style="background-image: url(<?php echo get_template_directory_uri()?>/img/psih_tyr_ban_4.jpg)">
 		    <div class="container">
-		      <h2 class="booking-title">Осталось <br><span class="color-orange"><?php echo carbon_get_the_post_meta("tur_countm_mest");?></span> <?php echo carbon_get_the_post_meta("tur_countm_mest_iz");?></h2>
-		      <div class="booking-descr">
-		        Бронирование участия – предоплата 10000 рублей. В случае отказа от участия - предоплата не возвращается, но вы можете использовать ее в других мероприятиях Дмитрия Хара или передать свою предоплату другому человеку, который ещё не является участником тренинга.
-		      </div>
+		      <h2 class="booking-title">Осталось <br><span class="color-orange"><?php echo carbon_get_the_post_meta("tur_countm_mest");?></span> <span class="color-orange-fz"><?php echo carbon_get_the_post_meta("tur_countm_mest_iz");?></span></h2>
+		      <!-- <div class="booking-descr">
+						Бронирование участия – предоплата 10000 рублей. В случае отказа от участия - предоплата не возвращается, но вы можете использовать ее в других мероприятиях Дмитрия Хара или передать свою предоплату другому человеку, который ещё не является участником тренинга.
+					</div> -->
 		    </div>
 		  </section>
 		  <section class="packages">
 		  	<div class="container">
-		  		<h2 class="section-title">Пакеты участия</h2>
+		  		<h2 class="section-title">Стоимость тренинга</h2>
 		  		<!--<h3 style = "text-align:center;">В настоящий момент программа курса разрабатывается.</h3>-->
 				
 				<div class="packages-descr">В стоимость входит проживание и питание на базе отдыха</div>
@@ -399,6 +406,9 @@ get_header();
 		  				<a href="#" class="button popup-modal" data-formid="Заказ пакета участия <?php echo carbon_get_the_post_meta("tpac3_data");?>" data-mailmsg="Заказ пакета участия <?php echo carbon_get_the_post_meta("tpac3_data");?>" data-winmsg = "Заказать пакет <?php echo carbon_get_the_post_meta("tpac3_data");?>">Выбрать пакет</a>
 		  			</div>
 		  		</div>
+		  		<div class="booking-descr">
+							Бронирование участия – предоплата 10000 рублей. В случае отказа от участия - предоплата не возвращается, но вы можете использовать ее в других мероприятиях Дмитрия Хара или передать свою предоплату другому человеку, который ещё не является участником тренинга.
+					</div>
 				
 		  	</div>
 		  </section>
@@ -444,9 +454,9 @@ get_header();
 		      </div>
 		      <div class="questions-form">
 		        <form action="" class="main-form">
-		          <input type="email" placeholder="Введите Ваш электронный адрес" name="email">
-		          <input type="text" placeholder="Введите Ваше Имя" name="name">
-		          <input type="tel" placeholder="Введите Ваш телефон" name="tel">
+		          <input type="email" placeholder="Ваш электронный адрес" name="email">
+		          <input type="text" placeholder="Ваше Имя" name="name">
+		          <input type="tel" placeholder="Ваш телефон" name="tel">
 		          <a href="#" class="button uniSendBtn" data-formid="Форма в подвале сайта" data-mailmsg="Форма в подвале сайта">Перезвоните мне</a>
 		          <div class="way-item__block">
 		            <input type="checkbox" checked id="policy-input">

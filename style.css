@@ -1733,12 +1733,12 @@ a {
 	
 
 .header {
-  height: 410px;
+  height: 480px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
   background-image: url(./img/header-bg.jpg);
-  padding-top: 40px;
+  padding-top: 75px;
   color: #fff
 }
 .home .header {
@@ -2432,6 +2432,10 @@ a {
   margin-bottom: 18px
 }
 
+.accommodation-item__descr a {
+ color: #ff9e17;
+}
+
 .accommodation-item__photo-wrapper {
   display: -moz-flex;
   display: -ms-flex;
@@ -2500,10 +2504,19 @@ a {
   margin-bottom: 54px
 }
 
+.color-orange  {
+  font-size: 48px;
+}
+
+.color-orange-fz {
+	font-size: 48px;
+}
+
 .booking-descr {
   max-width: 520px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  margin-bottom:45px;
 }
 
 .reviews {

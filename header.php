@@ -40,9 +40,9 @@
         <div class = "modalline" id = "lineIcon">
         	<h2 class="section-title">Обратный звонок</h2>
         	<form action="" class="main-form">
-		          <input type="email" placeholder="Введите Ваш электронный адрес" name="email">
-		          <input type="text" placeholder="Введите Ваше Имя" name="name">
-		          <input type="tel" placeholder="Введите Ваш телефон" name="tel">
+		          <input type="email" placeholder="Ваш электронный адрес" name="email">
+		          <input type="text" placeholder="Ваше Имя" name="name">
+		          <input type="tel" placeholder="Ваш телефон" name="tel">
 		          <a href="#" class="button uniSendBtn">Перезвоните мне</a>
 		          <div class="way-item__block">
 		            <input type="checkbox" checked="checked" id="policy-input-2">
