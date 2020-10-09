@@ -16,16 +16,15 @@
 				<a href="<?php echo get_permalink(8)?>" class="light-button light-button__inverse">Подробнее</a>
 			</div>
 			<div class="tours-item">
-				<a href="<?php echo get_permalink(6);?>" class="tours-item__title" 
-					style="background-image: url(<?php echo get_template_directory_uri();?>/img/monten.jpg);">
+				<a href="<?php echo get_permalink(6);?>" class="tours-item__title" style="background-image: url(<?php echo get_template_directory_uri();?>/img/khara-klass.jpg);">
 					<h3 class="tours-title">Курск</h3>
 				</a>
 				<a href="<?php echo get_permalink(6);?>" class="tours-item__subtitle">
-					<h3 class="tours-subtitle">Тур «Апгрейд»</h3>
+					<h3 class="tours-subtitle">«ПерепроШивка»</h3>
 				</a>
 				<div class="tours-item__descr">
-					<span class="ttu">Мечтай! Действуй! Достигай!</span>
-					или что делать, чтобы точно получилось
+					<span class="ttu">Живой Мастер-класс Дмитрия Хара</span>
+					Твоя Жизнь уже никогда не будет прежней!
 				</div>
 				<a href="<?php echo get_permalink(6)?>" class="light-button light-button__inverse">Подробнее</a>
 			</div>
