@@ -248,7 +248,7 @@ get_header();
 		  <section class="about">
 		    <div class="container">
 		      <div class="about-content">
-		        <h3 class="about-title">Нина Марченко</h3>
+		        <h3 class="about-title">Дмитрий Хара</h3>
 		        <div class="about-content__text">
 		          <?php
 						echo carbon_get_the_post_meta("competention");
@@ -256,12 +256,12 @@ get_header();
 		        </div>
 		        <a href="#" class="button popup-modal" data-formid="Форма из блока Задать вопрос" data-mailmsg="Форма из блока Задать вопрос">Задать вопрос</a>
 		      </div>
-		      <div class="about-photo" style="background-image: url(<?php echo get_template_directory_uri()?>/img/psih_tyr_fot_1.jpg)"></div>
+		      <div class="about-photo" style="background-image: url(<?php echo get_template_directory_uri()?>/img/khara.jpg)"></div>
 		    </div>
 		  </section>
 		  <section class="advantages">
 		    <div class="container">
-		      <h2 class="section-title">Преимущества тура «Апгрейд»</h2>
+		      <h2 class="section-title">Преимущества мастер-класса «ПерепроШивка»</h2>
 		      <div class="advantages-wrapper">
 		        <div class="advantages-item" style="background-image: url(<?php echo get_template_directory_uri()?>/img/psih_tyr_fot_2.jpg)">
 		          <span class="advantages-item__number">01</span>

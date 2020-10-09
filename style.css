@@ -2311,8 +2311,9 @@ a {
 
 .about-content__text {
   font-size: 20px;
-  width: 400px;
-  margin-bottom: 50px
+  width: 550px; /*400px*/
+  margin-bottom: 50px;
+	line-height:30px;
 }
 
 .about-title {
