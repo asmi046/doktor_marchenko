@@ -2311,7 +2311,8 @@ a {
 
 .about-content__text {
   font-size: 20px;
-  width: 550px; /*400px*/
+  max-width: 550px;
+  width: 100%;
   margin-bottom: 50px;
 	line-height:30px;
 }
@@ -3296,6 +3297,9 @@ a {
 	}
 }
 @media only screen and (max-width:1340px) {
+	.header {
+  /*height: 100%;*/
+}
   .programm-slider .slick-prev {
     left: 0
   }
@@ -3482,7 +3486,7 @@ a {
   	display: none;
   	position: absolute;
     top: 100%;
-    z-index: 1000;
+    z-index: 10000;
     flex-direction: column;
     right: 0;
     left: 0;
@@ -3726,10 +3730,23 @@ a {
   .qualification-item {
   	width: 100%;
   }
+  .questions {
+    padding-top: 10px;
+	}
+  .questions .container {
+  	flex-direction: column;
+    align-items: center;
+  }
+  .questions-text {
+  	margin-bottom: 35px;
+  }
 }
 @media only screen and (max-width:600px)  {
 	.home .header {
 		background-size:cover;
+	}
+	.footer-credits {
+		margin-bottom: 50px;
 	}
 	.footer-contacts {
 		margin-left: 0;
@@ -3770,7 +3787,7 @@ a {
 	    transform: scale(1.4);
 	}
 	.slick-next, .slick-prev {
-		top: 24%;
+		/*top: 24%;*/
 	}
 	.accommodation-item .slick-next, .slick-prev {
 		top: 50%;
@@ -3853,6 +3870,16 @@ a {
 	    transform: scale(1.4);
 	}
 }
+
+@media only screen and (max-width:414px) {
+	.section-title {
+		margin-bottom: 20px;
+	}
+	.questions-text {
+		padding-right: 0;
+	}
+}
+
 @media only screen and (max-width:400px) {
   .reviews-item {
     width: 100%;
@@ -3903,4 +3930,10 @@ a {
 	  .main-slider .slick-dots li {
 	  	width: 80px;
 	  }
+}
+
+@media only screen and (max-width: 370px) {
+	.header {
+		padding-top: 25px;
+	}
 }
