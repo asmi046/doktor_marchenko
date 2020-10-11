@@ -2681,20 +2681,36 @@ a {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .footer-logo {
-  margin-right: auto;
+  /*margin-right: auto;*/
   width: 160px;
   height: 75px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%
+  background-size: 100%;
+}
+
+.footer-credits {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 85px;
+  height: 100%;
+}
+
+.footer-credits p {
+	margin: 0px 0px 0px 0px;
+}
+
+.footer-credits a {
+	font-weight: 400;
 }
 
 .footer-contacts {
-  margin-left: 100px
+  margin-left: 100px;
 }
 
 .footer-title {

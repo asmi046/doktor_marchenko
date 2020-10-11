@@ -16,6 +16,16 @@
 	  <footer class="footer">
 	    <div class="container">
 	      <div class="footer-logo" style="background-image: url(<?php echo get_template_directory_uri()?>/img/home-logo.svg)"></div>
+
+	      <div class="footer-credits">
+	      	<p class="footer-credits__offer">
+	      		<a href="#">Условия оферты</a>
+	      	</p>
+	      	<p class="footer-credits__politics">
+	      		<a href="<?php echo get_permalink(3)?>">Политика конфиденциальности</a>
+	      	</p>
+	      </div>
+
 	      <div class="footer-social">
 	        <div class="footer-title">Мы в соцсетях:</div>
 	        <ul class="ul-clean">
