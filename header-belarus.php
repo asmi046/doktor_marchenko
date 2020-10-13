@@ -98,16 +98,11 @@
 							</div>
 							<div class="header-baner__image">
 
-			<div class="header-baner__item baner__item-01" style="background-image: url(<?php echo get_template_directory_uri()?>/img/01.jpg)">
-			</div>
-			<div class="header-baner__item baner__item-02" style="background-image: url(<?php echo get_template_directory_uri()?>/img/02.jpg)">
-			</div>
-			<div class="header-baner__item baner__item-03" style="background-image: url(<?php echo get_template_directory_uri()?>/img/03.jpg)">
-			</div>
-			<div class="header-baner__item baner__item-04" style="background-image: url(<?php echo get_template_directory_uri()?>/img/04.jpg)">
-			</div>
-			<div class="header-baner__item baner__item-05" style="background-image: url(<?php echo get_template_directory_uri()?>/img/05.jpg)">
-			</div>
+			<div class="header-baner__item baner__item-01 baner__item-bot" style="background-image: url(<?php echo get_template_directory_uri()?>/img/01.jpg)"></div>
+			<div class="header-baner__item baner__item-02 baner__item-top" style="background-image: url(<?php echo get_template_directory_uri()?>/img/02.jpg)"></div>
+			<div class="header-baner__item baner__item-03 baner__item-bot" style="background-image: url(<?php echo get_template_directory_uri()?>/img/03.jpg)"></div>
+			<div class="header-baner__item baner__item-04 baner__item-top" style="background-image: url(<?php echo get_template_directory_uri()?>/img/04.jpg)"></div>
+			<div class="header-baner__item baner__item-05 baner__item-bot" style="background-image: url(<?php echo get_template_directory_uri()?>/img/05.jpg)"></div>
 			
 		</div>
 

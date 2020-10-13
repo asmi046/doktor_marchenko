@@ -9,7 +9,7 @@
     "send_r": "scp -C *.php *.png *.css nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
     "send_ms": "scp -C *.css nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
     "send_head": "scp -C header.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
-    "send_one": "scp -C tovar-elem.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
+    "send_one": "scp -C header-belarus.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
     "send_cat": "scp -C category.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
     "send_singl": "scp -C single.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
     "send_index": "scp -C index.php nina-marhenko_wp1@pw72n.spectrum.myjino.ru:site/wp-content/themes/monte/",
