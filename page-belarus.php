@@ -17,7 +17,7 @@ get_header('belarus');
 
 		  <section class="way">
 		    <div class="container">
-		      <h2 class="section-title">Нам с вами по пути, если</h2>
+		      <h2 class="section-title">Нам с вами по пути, если5</h2>
 		      <div class="way-wrapper">
 		        <div class="way-item">
 		          <div class="way-item__img" style="background-image: url(<?php echo get_template_directory_uri()?>/img/Tyr_belorus_icon_1.svg)"></div>

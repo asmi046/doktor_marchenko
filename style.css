@@ -99,7 +99,7 @@ pre {
 	font-family: monospace, monospace; /* 1 */
 	font-size: 1em; /* 2 */
 }
-
+   
 /* Text-level semantics
 	 ========================================================================== */
 
@@ -846,6 +846,10 @@ textarea {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+}
+
+.entry-content {
+	margin-bottom: 30px;
 }
 
 .page-links {
@@ -1738,9 +1742,76 @@ a {
   background-position: center top;
   background-size: cover;
   background-image: url(./img/header-bg.jpg);
-  padding-top: 75px;
+  /*padding-top: 75px;*/
   color: #fff
 }
+
+
+.header-baner {
+	background: #000;
+	/*max-width: 1920px;
+	width: 100%;*/
+	/*min-height: 480px;*/
+	/*margin: 0px auto;*/
+
+}
+
+
+.header-baner__block-row {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1920px;
+	width: 100%;
+	min-height: 480px;
+	margin: 0px auto;
+	/*border: 3px solid grey;*/
+}
+
+.header-baner__text {
+	/*max-width: 450px;
+	width: 100%;*/
+	padding: 50px 0px 0px 310px;
+}
+.header-baner__image {
+	display: flex;
+}
+.header-baner__item {
+	margin: 0px 16px 0px 0px;
+}
+.baner__item-01 {
+	align-self: flex-end;
+	width: 213px;
+	height: 449px;
+}
+.baner__item-02 {
+	align-self: flex-start;
+	width: 200px;
+	height: 434px;
+}
+.baner__item-03 {
+	align-self: flex-end;
+	width: 200px;
+	height: 441px;
+}
+.baner__item-04 {
+	align-self: flex-start;
+	width: 200px;
+	height: 443px;
+}
+.baner__item-05 {
+	align-self: flex-end;
+	width: 200px;
+	height: 444px;
+}
+.header-content {}
+.header-content__date {}
+.color-orange {}
+.header-content__live {}
+.header-content__update {}
+.header-baner__image {}
+
+
+
 .home .header {
 	position: relative;
 	height: 960px;

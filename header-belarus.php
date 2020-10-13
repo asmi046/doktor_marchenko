@@ -68,27 +68,55 @@
 		</div>
 	</div>
 	<header class="header" style="background-image: url(<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('header_bg'), 'full')[0]?>);">
-	    <div class="container">
-	      <div class="header-content">
-	        <div class="header-content__date">
-	          <span class="color-orange">
-				<?php echo carbon_get_the_post_meta("tur_data");?>
-			  </span>
-	          <?php echo carbon_get_the_post_meta("tur_year");?> <br> <?php echo carbon_get_the_post_meta("tur_where");?>
-	        </div>
-	        <div class="header-content__live">
-	          <?php echo carbon_get_the_post_meta("live_tur");?>
-	        </div>
-	        <div class="header-content__update">
-	          Психологический тур
-	          <span># Апгрейд</span>
-	          Мечтай! Действуй! <br> Достигай!
-	        </div>
-	        <div class="header-content__live">
-	          или что сделать, чтобы точно получилось
-	        </div>
-	      </div>
-	    </div>
+	    <!-- <div class="container"> -->
+
+	    	<div class="header-baner">
+	    		<!-- <div class="container"> -->
+	    			<div class="header-baner__block-row">
+
+							<div class="header-baner__text">
+
+								<div class="header-content">
+	        				<div class="header-content__date">
+	          				<span class="color-orange">
+											<?php echo carbon_get_the_post_meta("tur_data");?>
+			  						</span>
+	          					<?php echo carbon_get_the_post_meta("tur_year");?> <br> <?php echo carbon_get_the_post_meta("tur_where");?>
+	        				</div>
+	        				<div class="header-content__live">
+	          				<?php echo carbon_get_the_post_meta("live_tur");?>
+	        				</div>
+	        				<div class="header-content__update">
+	         				 Психологический тур
+	          				<span># Апгрейд</span>
+	          			Мечтай! Действуй! <br> Достигай!
+	        				</div>
+	        				<div class="header-content__live">
+	         				 или что сделать, чтобы точно получилось
+	        				</div>
+	      				</div>
+							</div>
+							<div class="header-baner__image">
+
+			<div class="header-baner__item baner__item-01" style="background-image: url(<?php echo get_template_directory_uri()?>/img/01.jpg)">
+			</div>
+			<div class="header-baner__item baner__item-02" style="background-image: url(<?php echo get_template_directory_uri()?>/img/02.jpg)">
+			</div>
+			<div class="header-baner__item baner__item-03" style="background-image: url(<?php echo get_template_directory_uri()?>/img/03.jpg)">
+			</div>
+			<div class="header-baner__item baner__item-04" style="background-image: url(<?php echo get_template_directory_uri()?>/img/04.jpg)">
+			</div>
+			<div class="header-baner__item baner__item-05" style="background-image: url(<?php echo get_template_directory_uri()?>/img/05.jpg)">
+			</div>
+			
+		</div>
+
+		</div>
+
+		<!-- </div> -->
+	</div>
+
+	    <!-- </div> -->
 	  </header>
 
 	<div id="content" class="site-content">
