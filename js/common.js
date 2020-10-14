@@ -80,7 +80,23 @@ $('.popup-modal-3').click(function(e) {
       $('#payModal').find("input[name=description]").val(nameCl);
       $('#payModal').find("input[name=amount]").val(priceT);
       
+
+      let chek = {
+        "EmailCompany": "alexey_eremeev@rambler.ru",
+        "Taxation": "usn_income",
+        "Items": [ 
+          {
+            "Name": nameCl,
+            "Price": priceT,
+            "Quantity": 1.00,
+            "Amount": Number(priceT)*100,
+            "PaymentMethod": "full_prepayment",
+            "PaymentObject": "service",
+            "Tax": "vat0" }
+          ]};
       
+        $('#payModal').find("input[name=receipt]").val(JSON.stringify(chek));
+
       $('#payModal').arcticmodal();
 
   });
