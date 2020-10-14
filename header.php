@@ -67,7 +67,7 @@
 			<?php main_menu();?>
 		</div>
 	</div>
-	<header class="header" style="background-image: url(<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('header_bg'), 'full')[0]?>);">
+	<header class="header header__khara" style="background-image: url(<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('header_bg'), 'full')[0]?>);">
 	    <div class="container">
 	      <div class="header-content">
 	        <div class="header-content__date">

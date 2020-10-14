@@ -1617,6 +1617,11 @@ a {
 .header-top .header-content {
 	max-width: 560px!important;
 }
+
+.header__khara {
+	padding-top: 75px;
+}
+
 .header-title {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -1749,11 +1754,6 @@ a {
 
 .header-baner {
 	background: #000;
-	/*max-width: 1920px;
-	width: 100%;*/
-	/*min-height: 480px;*/
-	/*margin: 0px auto;*/
-
 }
 
 
@@ -1762,15 +1762,11 @@ a {
 	justify-content: space-between;
 	max-width: 1920px;
 	width: 100%;
-	height: 480px;
+	min-height: 480px;
 	margin: 0px auto;
-	/*border: 3px solid grey;*/
 }
 
 .header-baner__text {
-	/*max-width: 450px;
-	width: 100%;*/
-  /* padding: 50px 0px 0px 310px; */
   padding-top:50px;
   padding-right:0;
   padding-bottom:0;
@@ -1783,7 +1779,7 @@ a {
   margin: 0px 16px 0px 0px;
   border-left:3px solid white;
   border-right:3px solid white;
-  min-width: 140px;
+  /*min-width: 140px;*/
 }
 .baner__item-01 {
 	align-self: flex-end;
@@ -1818,14 +1814,11 @@ a {
   border-bottom:3px solid white;
 }
 
-.header-content {}
-.header-content__date {}
-.color-orange {}
-.header-content__live {}
-.header-content__update {}
 .header-baner__image {
-  max-width: 60%;
+  /*max-width: 60%;*/
   overflow-x: hidden;
+  max-width: 1100px;
+  width: 100%;
 }
 
 
@@ -2376,6 +2369,10 @@ a {
   padding: 30px 0
 }
 
+.about__board {
+	padding: 0px 0px 100px 0px;
+}
+
 .about .container {
   display: -moz-flex;
   display: -ms-flex;
@@ -2404,6 +2401,10 @@ a {
   width: 100%;
   margin-bottom: 50px;
 	line-height:30px;
+}
+
+.about-content__text p a {
+ 	color: #ff9e17;
 }
 
 .about-title {
@@ -2843,9 +2844,10 @@ a {
   bottom: unset
 }
 .belarus .programm-slider .slick-dots {
-	justify-content: space-around;
+	/*justify-content: space-around;*/
+	justify-content: center;
 }
-.belarus .programm-slider .slick-dots:after {
+/*.belarus .programm-slider .slick-dots:after {
     content: '●';
     position: absolute;
     top: 69%;
@@ -2858,7 +2860,7 @@ a {
     line-height: .19;
     text-align: right;
     letter-spacing: -4px;
-}
+}*/
 .programm-slider .slick-dots:before {
   position: absolute;
   content: '';
@@ -2872,7 +2874,7 @@ a {
   width: 60px;
   height: 44px;
   z-index: 1;
-  margin: 0
+  margin: 0 20px 0 30px;
 }
 
 .programm-slider .slick-dots li.slick-active button {
@@ -2940,7 +2942,7 @@ a {
     z-index: -1;
 }
 
-.belarus .programm-slider .slick-dots button:after {
+/*.belarus .programm-slider .slick-dots button:after {
 	content: '●';
 	position: absolute;
 	top: 50%;
@@ -2954,7 +2956,7 @@ a {
 	letter-spacing: -4px;
 	text-align: right;
 	transform: rotate(180deg);
-}
+}*/
 .belarus .programm-slider .slick-dots li:first-child button:after {
 	width: 18px;
 }
@@ -3061,6 +3063,10 @@ a {
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 	padding-bottom: 80px;
+}
+
+.packages-wrapper__boards {
+		justify-content: center;
 }
 .packages-item {
 	position: relative;
@@ -3427,6 +3433,13 @@ a {
     padding-left: 14px;
     padding-right: 14px
   }
+  .header-baner {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/*.header-baner__image {
+	max-width: 61%;
+}*/
 }
 
 @media only screen and (max-width:1200px) {
@@ -3637,6 +3650,12 @@ a {
 }
 
 @media only screen and (max-width:768px) {
+	.header-baner__block-row {
+		flex-direction: column;
+	}
+	.header-baner__item:last-child {
+		margin: 0;
+	}
   .questions-text {
     font-size: 24px
   }
@@ -3675,6 +3694,9 @@ a {
   }
   .accommodation-item__photo-wrapper  {
   	width: 100%;
+  }
+  .site-content__boards {
+  	padding-top: 390px;
   }
 }
 @media only screen and (max-width:730px) {
@@ -4025,4 +4047,10 @@ a {
 	.header {
 		padding-top: 25px;
 	}
+}
+
+@media only screen and (max-width: 320px) {
+	.site-content__boards {
+  	padding-top: 440px;
+  }
 }

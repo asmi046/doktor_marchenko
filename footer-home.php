@@ -19,7 +19,7 @@
 
 	      <div class="footer-credits">
 	      	<p class="footer-credits__offer">
-	      		<a href="" target="_blank" download="oferta.pdf">Условия оферты</a>
+	      		<a href="<?php echo get_template_directory_uri()?>/doc/oferta.pdf" target="_blank" download="oferta.pdf">Условия оферты</a>
 	      	</p>
 	      	<p class="footer-credits__politics">
 	      		<a href="<?php echo get_permalink(3)?>">Политика конфиденциальности</a>
