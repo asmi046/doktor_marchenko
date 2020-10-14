@@ -3726,6 +3726,9 @@ a {
   .site-content__boards {
   	padding-top: 160px;
   }
+  .about-content {
+    order: 2;
+	}
 }
 @media only screen and (max-width:730px) {
 	.post-item {
