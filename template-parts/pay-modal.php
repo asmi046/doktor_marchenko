@@ -9,7 +9,7 @@
     <style>.tinkoffPayRow{display:block;margin:1%;width:160px;}</style>
     <script src="https://securepay.tinkoff.ru/html/payForm/js/tinkoff_v2.js"></script>
     <form class="pay-form" name="TinkoffPayForm" onsubmit="pay(this); return false;">
-        <input class="tinkoffPayRow" type="hidden" name="terminalkey" value="TinkoffBankTest">
+        <input class="tinkoffPayRow" type="hidden" name="terminalkey" value="1602594724167DEMO">
         <input class="tinkoffPayRow" type="hidden" name="frame" value="true">
         <input class="tinkoffPayRow" type="hidden" name="language" value="ru">
         <input class="tinkoffPayRow" type="hidden" placeholder="Сумма заказа" name="amount" required>
