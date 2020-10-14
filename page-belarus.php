@@ -441,7 +441,7 @@ get_header('belarus');
 		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac2_data");?></h4>
 		  				<div class="packages-item__price"><?php echo carbon_get_the_post_meta("tpac2_price");?> ₽</div>
 						<?php echo carbon_get_the_post_meta("tpac2_prog");?>
-		  				<a href="#" class="button popup-modal-3" data-formid="Заказ пакета участия <?php echo carbon_get_the_post_meta("tpac2_data");?>" data-mailmsg="Заказ пакета участия <?php echo carbon_get_the_post_meta("tpac2_data");?>" data-winmsg = "Заказать пакет <?php echo carbon_get_the_post_meta("tpac2_data");?>">Оплатить</a>
+		  				<a href="#" class="button popup-modal-3" data-program = "Мастеркласс - Гвозди" data-price = "10000" >Оплатить</a>
 		  			<?php get_template_part('template-parts/pay-modal');?>
 						</div>
 

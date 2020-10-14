@@ -71,17 +71,16 @@ jQuery(document).ready(function ($) {
 $('.popup-modal-3').click(function(e) {
     if($(window).width() > 500) {
       e.preventDefault();
-      var formid = $(this).data('formid');
-      var mailmsg = $(this).data('mailmsg');
-    
-      var hmsg = $(this).data('winmsg');
+      let nameCl = $(this).data("program");
+      let priceT = $(this).data("price");
       
-      // if (hmsg == "") hmsg = "Обратный звонок";
+      $('#payModal').find(".payWinName").html(nameCl);
+      $('#payModal').find(".payWinPrice").html(priceT+ " ₽");
       
-      // $('#payModal .section-title').html(hmsg);
+      $('#payModal').find("input[name=description]").val(nameCl);
+      $('#payModal').find("input[name=amount]").val(priceT);
       
-      // $('#payModal .uniSendBtn').attr('data-formid', formid);
-      // $('#payModal .uniSendBtn').attr('data-mailmsg', mailmsg);
+      
       $('#payModal').arcticmodal();
     }
   });

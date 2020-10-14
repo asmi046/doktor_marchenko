@@ -2268,7 +2268,21 @@ a {
 .pay-img {
 	max-width: 400px;
 	width: 100%;
-	height: 270px;
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.payWinFeild {
+  width:100%;
+  margin-bottom: 10px; 
+  text-align: center; 
+}
+
+.payWinPrice {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .declaration-wrapper {
