@@ -69,7 +69,7 @@ jQuery(document).ready(function ($) {
 
 
 $('.popup-modal-3').click(function(e) {
-    if($(window).width() > 500) {
+    
       e.preventDefault();
       let nameCl = $(this).data("program");
       let priceT = $(this).data("price");
@@ -82,7 +82,7 @@ $('.popup-modal-3').click(function(e) {
       
       
       $('#payModal').arcticmodal();
-    }
+
   });
 
 
