@@ -67,6 +67,26 @@ jQuery(document).ready(function ($) {
     }
   });
 
+
+$('.popup-modal-3').click(function(e) {
+    if($(window).width() > 500) {
+      e.preventDefault();
+      var formid = $(this).data('formid');
+      var mailmsg = $(this).data('mailmsg');
+    
+      var hmsg = $(this).data('winmsg');
+      
+      // if (hmsg == "") hmsg = "Обратный звонок";
+      
+      // $('#payModal .section-title').html(hmsg);
+      
+      // $('#payModal .uniSendBtn').attr('data-formid', formid);
+      // $('#payModal .uniSendBtn').attr('data-mailmsg', mailmsg);
+      $('#payModal').arcticmodal();
+    }
+  });
+
+
   jQuery(".uniSendBtn").click(function(){ 
       var formid = jQuery(this).data("formid");
       var message = jQuery(this).data("mailmsg");
