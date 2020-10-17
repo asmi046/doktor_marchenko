@@ -2260,9 +2260,18 @@ a {
 .belarus .button, .pay-form .tinkoffPayRow-btn {
 	background-color: #f47555;
 }
-.button, .pay-form .tinkoffPayRow-btn:hover {
+.button:hover {
   border-radius: 6px;
-  text-decoration: underline
+  text-decoration: underline;
+}
+
+.tinkoffPayRow-btn:hover {
+	border-radius: 6px;
+	text-decoration: underline;
+}
+
+.tinkoffPayRow-btn {
+	cursor: pointer;
 }
 
 .pay-img {
@@ -2733,6 +2742,11 @@ a {
   margin-bottom: 14px;
   border: 2px solid #e1e1e1;
   outline: 0
+}
+
+.pay-form .tinkoffPayRow-btn {
+	border: none;
+	background-color: none;
 }
 
 .main-form .button, .pay-form .tinkoffPayRow-btn {
