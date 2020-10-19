@@ -14,16 +14,16 @@ Container::make( 'theme_options', 'monte_theme_options', 'Настройки т�
     ->add_tab('События',array(
       Field::make('complex', 'monte_events', 'Событие')
         ->add_fields(array(
-	  Field::make('image', 'image', 'Фото')
-		->set_width(30),
-	  Field::make('text', 'date', 'Даты проведения мероприятия')
-		->set_width(30),
-	  Field::make('text', 'title', 'Название мероприятия')
-		->set_width(30),
-	  Field::make('rich_text', 'about', 'O мероприятии')
-		->set_width(30),
-	  Field::make('text', 'link', 'Cсылка на страницу мероприятия')
-	    ->set_width(30),
+		Field::make('image', 'image', 'Фото')
+			->set_width(30),
+		Field::make('text', 'date', 'Даты проведения мероприятия')
+			->set_width(30),
+		Field::make('text', 'title', 'Название мероприятия')
+			->set_width(30),
+		Field::make('rich_text', 'about', 'O мероприятии')
+			->set_width(30),
+		Field::make('text', 'link', 'Cсылка на страницу мероприятия')
+			->set_width(30),
         ))
     ))
     ->add_tab('Квалификация',array(
