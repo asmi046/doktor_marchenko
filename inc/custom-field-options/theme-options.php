@@ -163,6 +163,14 @@ Container::make('post_meta', 'tur_pacet', 'Пакеты участия в тур
 		Field::make('text', 'tpac3_data', 'Заголовок #3')->set_width(100),
 		Field::make('text', 'tpac3_price', 'Цена #3')->set_width(100),
 		Field::make('rich_text', 'tpac3_prog', 'Программа участия #3')->set_width(100),
+
+		Field::make('text', 'tpac4_data', 'Заголовок #4')->set_width(100),
+		Field::make('text', 'tpac4_price', 'Цена #4')->set_width(100),
+		Field::make('rich_text', 'tpac4_prog', 'Программа участия #4')->set_width(100),
+
+		Field::make('text', 'tpac5_data', 'Заголовок #5')->set_width(100),
+		Field::make('text', 'tpac5_price', 'Цена #5')->set_width(100),
+		Field::make('rich_text', 'tpac5_prog', 'Программа участия #5')->set_width(100),
 		
 	));
 	

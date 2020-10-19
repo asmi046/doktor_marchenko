@@ -2632,12 +2632,16 @@ a {
 }
 
 .booking-descr {
+  text-align: center;
   max-width: 520px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom:45px;
 }
-
+.popup-modal-3 {
+  display: inline-block;
+  margin-top: 14px;
+}
 .reviews {
   background-color: #f3f3f5;
   padding-top: 10px
@@ -3093,7 +3097,7 @@ a {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	-webkit-flex-wrap: wrap;
 	-moz-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
@@ -3110,7 +3114,8 @@ a {
 	width: 30%;
 	border: 2px solid #fbd0c0;
 	padding: 1px 10px;
-	text-align: center;
+  text-align: center;
+  margin-bottom: 40px;
 }
 .packages-item .button {
     position: absolute;

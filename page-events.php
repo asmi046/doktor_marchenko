@@ -20,7 +20,7 @@ get_header('page');
 			<div class="container">
 		<?php
 		while ( have_posts() ) :
-			the_post();12312;
+			the_post();
 			$arr_events = carbon_get_theme_option('monte_events');
 			foreach($arr_events as $event):?>
 				<div class="events-item">

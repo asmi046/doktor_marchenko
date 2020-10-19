@@ -393,6 +393,19 @@ get_header();
 							<?php get_template_part('template-parts/pay-modal');?>
 		  			</div>
 		  			<div class="packages-item">
+		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac4_data");?></h4>
+		  				<div class="packages-item__price"><?php echo carbon_get_the_post_meta("tpac4_price");?> ₽</div>
+		  				<?php echo carbon_get_the_post_meta("tpac4_prog");?>
+
+							<!-- <a href="#" class="button popup-modal-3" data-program = "Мастеркласс - Перепрошивка" data-price = "25000" >Оплатить</a> -->
+							<?php //get_template_part('template-parts/pay-modal');?>
+		  			</div>
+		  			<div class="packages-item">
+		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac5_data");?></h4>
+		  				<div class="packages-item__price"><?php echo carbon_get_the_post_meta("tpac5_price");?> ₽</div>
+		  				<?php echo carbon_get_the_post_meta("tpac5_prog");?>
+		  			</div>
+		  			<div class="packages-item">
 		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac2_data");?></h4>
 		  				<div class="packages-item__price"><?php echo carbon_get_the_post_meta("tpac2_price");?> ₽</div>
 						<?php echo carbon_get_the_post_meta("tpac2_prog");?>
@@ -407,8 +420,11 @@ get_header();
 		  				<!-- <a href="#" class="button popup-modal" data-formid="Заказ пакета участия <?php echo carbon_get_the_post_meta("tpac3_data");?>" data-mailmsg="Заказ пакета участия <?php echo carbon_get_the_post_meta("tpac3_data");?>" data-winmsg = "Заказать пакет <?php echo carbon_get_the_post_meta("tpac3_data");?>">Выбрать пакет</a> -->
 		  			</div>
 		  		</div>
-		  		<div class="booking-descr">
+		  		<div class="booking-descr">							
+					  <div class="">
 							Бронирование участия – предоплата 10000 рублей. В случае отказа от участия - предоплата не возвращается, но вы можете использовать ее в других мероприятиях Дмитрия Хара или передать свою предоплату другому человеку, который ещё не является участником тренинга.
+						</div>
+						<a href="#" class="button popup-modal-3" data-program = "Мастеркласс - Перепрошивка" data-price = "25000" >Внести предоплату</a>
 					</div>
 				
 		  	</div>
