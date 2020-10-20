@@ -383,7 +383,25 @@ get_header();
 				
 				<div class="packages-descr">В стоимость входит проживание и питание на базе отдыха</div>
 				<div class="packages-descr">Для семейных пар – специальные условия</div>
-		  		<div class="packages-wrapper">
+		  		
+				<div class="packages-wrapper">
+				  	<div class="packages-item">
+		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac4_data");?></h4>
+		  				<div class="packages-item__price"><?php echo carbon_get_the_post_meta("tpac4_price");?> ₽</div>
+		  				<?php echo carbon_get_the_post_meta("tpac4_prog");?>
+
+						  <a href="#" class="button popup-modal-3" data-program = "Мастеркласс - привычка быть счастливым" data-price = "1500" >Оплатить</a>
+		  			</div>
+
+					<div class="packages-item">
+		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac5_data");?></h4>
+		  				<div class="packages-item__price"><?php echo carbon_get_the_post_meta("tpac5_price");?> ₽</div>
+		  				<?php echo carbon_get_the_post_meta("tpac5_prog");?>
+		  				<a href="#" class="button popup-modal-3" data-program = "Мастеркласс - Медитация ШОДХАН" data-price = "3000" >Оплатить</a>
+					</div>
+		  		</div>
+				
+				<div class="packages-wrapper">
 		  			<div class="packages-item">
 		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac1_data");?></h4>
 		  				<div class="packages-item__price"><?php echo carbon_get_the_post_meta("tpac1_price");?> ₽</div>
@@ -392,19 +410,8 @@ get_header();
 							<a href="#" class="button popup-modal-3" data-program = "Мастеркласс - Перепрошивка" data-price = "25000" >Оплатить</a>
 							<?php get_template_part('template-parts/pay-modal');?>
 		  			</div>
-		  			<div class="packages-item">
-		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac4_data");?></h4>
-		  				<div class="packages-item__price"><?php echo carbon_get_the_post_meta("tpac4_price");?> ₽</div>
-		  				<?php echo carbon_get_the_post_meta("tpac4_prog");?>
-
-							<!-- <a href="#" class="button popup-modal-3" data-program = "Мастеркласс - Перепрошивка" data-price = "25000" >Оплатить</a> -->
-							<?php //get_template_part('template-parts/pay-modal');?>
-		  			</div>
-		  			<div class="packages-item">
-		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac5_data");?></h4>
-		  				<div class="packages-item__price"><?php echo carbon_get_the_post_meta("tpac5_price");?> ₽</div>
-		  				<?php echo carbon_get_the_post_meta("tpac5_prog");?>
-		  			</div>
+		  			
+		  			
 		  			<div class="packages-item">
 		  				<h4 class="packages-item__title"><?php echo carbon_get_the_post_meta("tpac2_data");?></h4>
 		  				<div class="packages-item__price"><?php echo carbon_get_the_post_meta("tpac2_price");?> ₽</div>
@@ -424,7 +431,8 @@ get_header();
 					  <div class="">
 							Бронирование участия – предоплата 10000 рублей. В случае отказа от участия - предоплата не возвращается, но вы можете использовать ее в других мероприятиях Дмитрия Хара или передать свою предоплату другому человеку, который ещё не является участником тренинга.
 						</div>
-						<a href="#" class="button popup-modal-3" data-program = "Мастеркласс - Перепрошивка" data-price = "25000" >Внести предоплату</a>
+						<a href="#" class="button popup-modal-3" data-program = "Мастеркласс - Перепрошивка (Предоплата)" data-price = "10000" >Внести предоплату</a>
+						<p class = "anti-covid">В случае введения корантина в связи с COVID-19 мероприятия будут перенесены</p>
 					</div>
 				
 		  	</div>
