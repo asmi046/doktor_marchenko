@@ -41,7 +41,7 @@ get_header('page');
 			endif;
 
 		endwhile; // End of the loop.
-		?>
+		?> 
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
